@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # 🎯 WizePick Backend
 
 Sistema de control de inventarios multi-negocio desarrollado con NestJS y PostgreSQL.
@@ -340,3 +341,7 @@ Para soporte, enviar email a: support@wizepick.com
 
 **Versión**: 2.0.0  
 **Última actualización**: Marzo 2026
+=======
+# wizepick-back
+The beggining of a new era
+>>>>>>> 18e8c7d4b9c6eff69f528da8d39fe9679a9caa5a
