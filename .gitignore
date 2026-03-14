@@ -1,0 +1,120 @@
+# ============================================
+# Dependencies
+# ============================================
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+lerna-debug.log*
+.pnpm-debug.log*
+
+# ============================================
+# Environment Variables
+# ============================================
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# ============================================
+# Build Output
+# ============================================
+dist/
+build/
+*.tsbuildinfo
+
+# ============================================
+# Testing
+# ============================================
+coverage/
+*.lcov
+.nyc_output
+
+# ============================================
+# IDE / Editor
+# ============================================
+.vscode/
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+.idea/
+*.swp
+*.swo
+*~
+*.sublime-workspace
+*.sublime-project
+
+# ============================================
+# Operating System
+# ============================================
+.DS_Store
+Thumbs.db
+Desktop.ini
+
+# ============================================
+# Logs
+# ============================================
+logs/
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+lerna-debug.log*
+
+# ============================================
+# Uploads / Temp Files
+# ============================================
+uploads/
+temp/
+tmp/
+*.tmp
+
+# ============================================
+# Database
+# ============================================
+*.sqlite
+*.sqlite3
+*.db
+
+# ============================================
+# TypeORM
+# ============================================
+ormconfig.json
+
+# ============================================
+# Docker
+# ============================================
+docker-compose.override.yml
+
+# ============================================
+# Backups
+# ============================================
+*.backup
+*.bak
+
+# ============================================
+# Documentation Build
+# ============================================
+docs/.vuepress/dist
+
+# ============================================
+# Package Manager
+# ============================================
+package-lock.json
+yarn.lock
+# NO ignorar pnpm-lock.yaml - necesario para installs determinísticos
+# pnpm-lock.yaml
+.yarn/
+.pnp.*
+.pnpm-store/
+.pnpm-debug.log*
+
+# ============================================
+# Misc
+# ============================================
+.cache/
+.parcel-cache/
+.eslintcache
